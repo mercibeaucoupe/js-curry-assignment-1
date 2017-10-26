@@ -1,0 +1,35 @@
+{
+  "name": "js-curry-assignment-1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel src/ -d build/",
+    "prestart": "npm run build",
+    "start": "node ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mercibeaucoupe/js-curry-assignment-1.git"
+  },
+  "keywords": [],
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "standard": "^10.0.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mercibeaucoupe/js-curry-assignment-1/issues"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "homepage": "https://github.com/mercibeaucoupe/js-curry-assignment-1#readme",
+  "devDependencies": {},
+  "description": ""
+}
